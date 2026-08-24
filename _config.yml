@@ -1,10 +1,10 @@
 # Site settings
 title: Tiancm Blog
-SEOTitle: 田纯明的博客 | Tiancm Blog
+SEOTitle: Tiancm Blog
 header-img: img/home-bg.jpg
 email: wyu11080740@163.com
-description: "这里是@Tiancm田纯明的个人博客 | 天行健，君子以自强不息!"
-keyword: "田纯明, Tiancm田纯明, Tiancm, Tiancm的博客, 博客, 个人网站, 互联网, Android, Framework, Java, Kotlin, C++, JNI"
+description: "这里是@Tiancm的个人博客 | 天行健，君子以自强不息!"
+keyword: "Tiancm, Tiancm的博客, 博客, 个人网站, 互联网, Android, Framework, Java, Kotlin, C++, JNI"
 url: "https://tianchunming.github.io/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
