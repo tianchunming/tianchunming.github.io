@@ -19,6 +19,10 @@ tags:
  - **\*\*.x509.pem（公钥证书文件）**：这是公钥证书，采用 PEM 格式（Base64 编码的文本文件，以 -----BEGIN CERTIFICATE----- 开头），它主要用于验证签名的有效性，确保应用未被篡改且来源可信
  - 这两个文件都是成对出现的
 
+ 使用如下命令查看公钥的SHA-256：
+
+    keytool -printcert -file 公钥.x509.pem
+
 #### 2.在 MTK 平台上的存放位置
 **在 MTK 平台的源码中，这两个文件的存放路径取决于项目的具体配置，主要有以下两种可能：**
 - AOSP 标准路径：alps/build/target/product/security/
@@ -121,3 +125,7 @@ tags:
             }
         }
     }
+
+apk签名后可使用如下命令查看签名信息：
+
+    apksigner verify --print-certs 文件.apk
